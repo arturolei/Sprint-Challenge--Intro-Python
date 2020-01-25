@@ -22,7 +22,7 @@ class Motorcycle(GroundVehicle):
     def __init__(self):
         super().__init__(num_wheels=2)
 
-    def drive(self):
+    def drive(self): #This will override drive() method of parent class
         return "BRAAAP!!"
 
 vehicles = [
